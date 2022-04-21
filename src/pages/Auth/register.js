@@ -7,8 +7,6 @@ import img4 from '../../Assets/Images/4.png'
 import img5 from '../../Assets/Images/5.png'
 import img6 from '../../Assets/Images/6.png'
 import h7bnrlyr from '../../Assets/Images/h7-bnr-lyr.png'
-import login from '../../Assets/Images/login-img.jpg'
-
 
 function register() {
   return (
