@@ -4994,7 +4994,10 @@ mark {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    top: -25px;
+    position: relative;
+    
 }
 
 .img-thumbnail {
@@ -61818,7 +61821,7 @@ ul {
   background-attachment: fixed !important;
 }
 .bg1 {
-  /* background-image: url(assets/images/bg/bg1.jpg); */
+  background-image: url(https://jodibanao.in/beta/v2/assets/images/bg/bg1.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65343,6 +65346,7 @@ input[type=range]::-ms-fill-upper {
 }
 .full-width-header .rs-header {
   z-index: 99;
+  height: 170px;
 }
 .full-width-header .rs-header .menu-area {
   transition: all 0.3s ease;
@@ -72085,7 +72089,7 @@ body .modal-backdrop {
   padding: 52px 60px 60px 75px;
 }
 .rs-skillbar.style1 .bg-part {
-  /* background: url(assets/images/bg/skill.jpg); */
+  background: url(https://jodibanao.in/beta/v2/assets/images/bg/skill.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
@@ -72184,7 +72188,7 @@ body .modal-backdrop {
     21. Testimonial Section CSS
 ---------------------------------------*/
 .rs-testimonial.style1 .bg-part {
-  /* background: url(assets/images/testimonial.jpg); */
+  background: url(https://jodibanao.in/beta/v2/assets/images/testimonial.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -79305,5 +79309,18 @@ p.textdis {
     position: relative;
     display: inline-block;
     width: 100%;
+}
+.login-page{
+  margin-left: 6px;
+}
+.header-container{
+  height: '300px';
+  display: flex;
+  justify-content: space-between;
+}
+.data-form{
+  height: 563px;
+  overflow: scroll;
+
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

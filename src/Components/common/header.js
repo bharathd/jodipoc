@@ -15,7 +15,7 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    height:500,
+    height:440,
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
@@ -46,7 +46,7 @@ function Header() {
                                 <div className="head-btn pl-30" style={{ marginTop: '-10px' }}>
 
                                     <div>
-                                        <Button onClick={handleOpen}>  <a href="javascript:void(0);" data-toggle="modal" data-target="#loginModal"><i className="fa fa-lock"></i> Login</a></Button>
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#loginModal" onClick={handleOpen}><i className="fa fa-lock"></i> Login</a>
                                         <Modal
                                             aria-labelledby="transition-modal-title"
                                             aria-describedby="transition-modal-description"
@@ -60,21 +60,21 @@ function Header() {
                                         >
                                             <Fade in={open}>
                                                 <Box sx={style}>
-                                                    <div class="modal fade show" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style={{ display: 'block', paddingright: '17px', ariamodal: 'true' }}>
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-body padd-0 br-r-0">
-                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <div className="modal fade show" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style={{ display: 'block', paddingright: '17px', ariamodal: 'true' }}>
+                                                        <div className="modal-dialog" role="document">
+                                                            <div className="modal-content">
+                                                                <div className="modal-body padd-0 br-r-0">
+                                                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                                                         {/* <span aria-hidden="true">×</span> */}
                                                                     </button>
-                                                                    <img src={login} class="img-fluid" />
-                                                                    <div class="row" style={{ padding: '15px' }}>
-                                                                        <div class="col-12 text-center">
-                                                                            <h5 class="modal-title text-center text-red" id="exampleModalLabel" style={{ marginbottom: '15px' }}>Login to Find Your Partner</h5>
-                                                                            <input class="home-form" type="text" placeholder="User ID" />
-                                                                            <input class="home-form" type="password" placeholder="Password" />
-                                                                            <button type="button" class="form-btn" style={{ marginbottom: '15px' }}>Submit</button><br />
-                                                                            Are you a new user? <a href="https://jodibanao.in/beta/" data-dismiss="modal">Register Here</a>
+                                                                    <img src={login} className="img-fluid" />
+                                                                    <div className="row" style={{ padding: '17px' }}>
+                                                                        <div className="col-12 text-center">
+                                                                            <h5 className="modal-title text-center text-red" id="exampleModalLabel" style={{ marginbottom: '15px' }}>Login to Find Your Partner</h5>
+                                                                            <input className="home-form" type="text" placeholder="User ID" />
+                                                                            <input className="home-form" type="password" placeholder="Password" />
+                                                                            <button type="button" className="form-btn" style={{ marginbottom: '15px' }}>Submit</button><br />
+                                                                            Are you a new user? <a  data-dismiss="modal">Register Here</a>
                                                                         </div>
                                                                     </div>
 
