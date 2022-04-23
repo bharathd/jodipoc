@@ -79336,5 +79336,8 @@ p.textdis {
     color: white;
     border-radius: 100px;
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */
+.text-data{
+  top: -31px;
+    position: absolute;
+    left: 63px;
+}

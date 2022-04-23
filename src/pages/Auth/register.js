@@ -40,7 +40,7 @@ function register() {
 											</select>
 										</div>
 										<div className="col-sm-6 col-6">
-											<span className="text-red gender-position" style={{ top: '-13px' }}>Gender</span>
+											<span className="gender-position" style={{ top: '-13px' }}>Gender</span>
 											<input type="radio" name="gender" /> <label className="label-checkbx-names">Male</label >
 											<input type="radio" name="gender" /> <label className="label-checkbx-names">Female</label>
 										</div>
@@ -155,17 +155,52 @@ function register() {
 										</div>
 										<div className="col-sm-6">
 											<select className="home-form">
-												<option>Country</option>
+												<option value="">Country</option>
+												<option value="1"> Afghanistan </option>
+												<option value="2"> Aland Islands </option>
+												<option value="3"> Albania </option>
+												<option value="4"> Algeria </option>
+												<option value="5"> American Samoa </option>
+												<option value="6"> Andorra </option>
+												<option value="7"> Angola </option>
+												<option value="8"> Anguilla </option>
+												<option value="9"> Antarctica </option>
+												<option value="10"> Antigua And Barbuda </option>
+
 											</select>
 										</div>
 										<div className="col-sm-6">
 											<select className="home-form">
 												<option>State</option>
+												<option value="1"> Andhra Pradesh</option>
+												<option value="2"> Bihar </option>
+												<option value="3"> Assam </option>
+												<option value="4"> Delhi </option>
+												<option value="5"> Gujarat</option>
+												<option value="6"> Haryana </option>
+												<option value="7"> Himachal Pradesh </option>
+												<option value="8"> Jammu and Kashmir </option>
+												<option value="9"> Jharkhand </option>
+												<option value="10">Karnataka</option>
+
+
+
 											</select>
 										</div>
 										<div className="col-sm-6">
 											<select className="home-form">
 												<option>District</option>
+												<option>State</option>
+												<option value="1"> Chittoor</option>
+												<option value="2"> Visakhapatnam</option>
+												<option value="3"> East Godavari</option>
+												<option value="4"> East Godavari</option>
+												<option value="5"> Kurnool </option>
+												<option value="6"> Kadapa  </option>
+												<option value="7"> Prakasam  </option>
+												<option value="8"> Srikakulam  </option>
+												<option value="9">Dima Hasao</option>
+												<option value="10">Dibrugarh </option>
 											</select>
 										</div>
 										<div className="col-sm-6">
@@ -192,7 +227,7 @@ function register() {
 											<input type="email" name="email" className="home-form" placeholder="Re-Enter Password" required="" />
 										</div>
 										<div className="col-sm-12">
-											<input type="checkbox" /> <span  style={{ fontweight: '500' }} className="label-checkbx-names">I accept your Terms and Conditions</span><br /><br />
+											<input type="checkbox" /> <span style={{ fontweight: '500' }} className="label-checkbx-names">I accept your Terms and Conditions</span><br /><br />
 										</div>
 										<div className="clearfix"></div>
 										<div className="col-sm-12">

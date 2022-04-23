@@ -68,7 +68,7 @@ function Header() {
                                                                     <img src={login} className="img-fluid" alt='' />
                                                                     <div className="row" style={{ padding: '17px' }}>
                                                                         <div className="col-12 text-center">
-                                                                            <h5 className="modal-title text-center text-red" id="exampleModalLabel" style={{ marginbottom: '15px' }}>Login to Find Your Partner</h5>
+                                                                            <h5 className="modal-title text-center text-red text-data" id="exampleModalLabel" style={{ marginbottom: '15px' }}>Login to Find Your Partner</h5>
                                                                             <input className="home-form" type="text" placeholder="User ID" />
                                                                             <input className="home-form" type="password" placeholder="Password" />
                                                                             <button type="button" className="form-btn" style={{ marginbottom: '15px' }}>Submit</button><br />
