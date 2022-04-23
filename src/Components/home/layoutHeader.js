@@ -19,7 +19,7 @@ function LayoutHeader() {
                                     </div>
                                 </div>
                                 <div className="col-lg-9 text-right">
-                                    <div className="header-form">
+                                    <div className="header-form form-data-data">
                                     <div className=" msg-1 text-center "></div>
                                         
                                             <input type="text" placeholder="   Enter Profile-Id / Email" className=" placeicon email-data" id="form_name" name="email"  required="" oninvalid="this.setCustomValidity(&#39;Please Enter Your Profile-Id / Valid Email ID&#39;)" oninput="setCustomValidity(&#39;&#39;)" /> 

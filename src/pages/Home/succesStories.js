@@ -1,6 +1,4 @@
 import React from 'react'
-import img3 from '../../Assets/Images/3.jpg'
-import img4 from '../../Assets/Images/4.jpg'
 import img5 from '../../Assets/Images/5.jpg'
 // import img6 from '../../Assets/Images/6.jpg'
 
@@ -30,7 +28,7 @@ function SuccesStories() {
                                 <div className="owl-stage-outer">
                                     <div className="owl-stage"
                                         style={{transform: 'translate3d(-3220px, 0px, 0px) transition: all 0.8s ease 0s', width: '5060px'}}>
-                                        <div className="owl-item cloned" style={{width: '430px', marginright: '30px'}}>
+                                        {/* <div className="owl-item cloned" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -50,8 +48,8 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="owl-item cloned" style={{width: '430px', marginright: '30px'}}>
+                                        </div> */}
+                                        {/* <div className="owl-item cloned" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -92,7 +90,7 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
@@ -107,14 +105,14 @@ function SuccesStories() {
                                                 </div>
                                                 <div className="posted-by text-center">
                                                     <div className="avatar">
-                                                        <img src="./Jodi Banao Matrimony_files/1.jpg" alt="" />
+                                                        <img src={img5} alt="" />
                                                     </div>
                                                     <h5 className="name">Shreya Singh</h5>
                                                     <span className="designation">CEO, Keen IT Solution</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
+                                        {/* <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -134,8 +132,8 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
+                                        </div> */}
+                                        {/* <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -155,8 +153,8 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
+                                        </div> */}
+                                        {/* <div className="owl-item" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -176,8 +174,8 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="owl-item active" style={{width: '430px', marginright: '30px'}}>
+                                        </div> */}
+                                        {/* <div className="owl-item active" style={{width: '430px', marginright: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -239,8 +237,8 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="owl-item cloned" style={{width: '430px',marginRight: '30px'}}>
+                                        </div> */}
+                                        {/* <div className="owl-item cloned" style={{width: '430px',marginRight: '30px'}}>
                                             <div className="testi-item">
                                                 <div className="content-part text-center">
                                                     <div className="icon-part">
@@ -260,7 +258,7 @@ function SuccesStories() {
                                                     <span className="designation">CEO, Brick Consulting</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="owl-nav disabled">

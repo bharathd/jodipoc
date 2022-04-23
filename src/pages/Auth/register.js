@@ -156,16 +156,16 @@ function register() {
 										<div className="col-sm-6">
 											<select className="home-form">
 												<option value="">Country</option>
-												<option value="1"> Afghanistan </option>
-												<option value="2"> Aland Islands </option>
-												<option value="3"> Albania </option>
-												<option value="4"> Algeria </option>
-												<option value="5"> American Samoa </option>
-												<option value="6"> Andorra </option>
-												<option value="7"> Angola </option>
-												<option value="8"> Anguilla </option>
-												<option value="9"> Antarctica </option>
-												<option value="10"> Antigua And Barbuda </option>
+												<option value="1"> India </option>
+												<option value="2"> United States </option>
+												<option value="3">	China </option>
+												<option value="4"> Brazil </option>
+												<option value="5"> 	Russia </option>
+												<option value="6"> Mexico </option>
+												<option value="7"> 	Japan </option>
+												<option value="8"> Turkey </option>
+												<option value="9"> 	France </option>
+												<option value="10">South Africa </option>
 
 											</select>
 										</div>
@@ -182,9 +182,6 @@ function register() {
 												<option value="8"> Jammu and Kashmir </option>
 												<option value="9"> Jharkhand </option>
 												<option value="10">Karnataka</option>
-
-
-
 											</select>
 										</div>
 										<div className="col-sm-6">
