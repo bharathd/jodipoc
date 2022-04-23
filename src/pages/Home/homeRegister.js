@@ -26,7 +26,7 @@ function HomeRegister() {
                 </div>
                 <div className="col-lg-6 ">
                     <div id="form-messages"></div>
-                    <form className="quote-form" method="post" action="https://jodibanao.in/beta/v2/index/save">
+                    <form className="quote-form form-data" method="post" action="https://jodibanao.in/beta/v2/index/save">
                         <div className="home-form-scroll scrollbar" id="style-3">
                             <div className="row">
                                 <div className="col-sm-6">

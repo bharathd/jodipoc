@@ -79320,9 +79320,14 @@ p.textdis {
   display: flex;
   justify-content: space-between;
 }
-.data-form{
+.form-data{
   height: 563px;
   overflow: scroll;
 
+}
+
+.footer-data{
+  bottom: -99px;
+    position: relative; 
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

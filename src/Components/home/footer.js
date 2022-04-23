@@ -4,7 +4,7 @@ import '../../index.css'
 
 function footer() {
   return (
-    <footer id="rs-footer" className="rs-footer footer-date">
+    <footer id="rs-footer" className="rs-footer footer-date footer-data">
       <div className="container">
         <div className="footer-content pt-32 pb-0 md-pb-34 sm-pt-28">
           <div className="row">
