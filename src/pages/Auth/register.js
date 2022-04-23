@@ -190,7 +190,6 @@ function register() {
 										<div className="col-sm-6">
 											<select className="home-form">
 												<option>District</option>
-												<option>State</option>
 												<option value="1"> Chittoor</option>
 												<option value="2"> Visakhapatnam</option>
 												<option value="3"> East Godavari</option>
