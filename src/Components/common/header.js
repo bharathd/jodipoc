@@ -13,7 +13,7 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    height:440,
+    height: 440,
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
@@ -36,8 +36,8 @@ function Header() {
                         <div className="row y-middle">
                             <div className="col-lg-3">
                                 <div className="logo-area">
-                                    <a className="dark" href="#"><img src={imageDark} alt="logo" /></a>
-                                    <a className="light" href="#"><img src={imageDark} alt="logo" /></a>
+                                    <a className="dark" ><img src={imageDark} alt="logo" /></a>
+                                    <a className="light" ><img src={imageDark} alt="logo" /></a>
                                 </div>
                             </div>
                             <div className="col-lg-9 text-right">
@@ -72,7 +72,7 @@ function Header() {
                                                                             <input className="home-form" type="text" placeholder="User ID" />
                                                                             <input className="home-form" type="password" placeholder="Password" />
                                                                             <button type="button" className="form-btn" style={{ marginbottom: '15px' }}>Submit</button><br />
-                                                                            Are you a new user? <a  data-dismiss="modal">Register Here</a>
+                                                                            Are you a new user? <a data-dismiss="modal">Register Here</a>
                                                                         </div>
                                                                     </div>
 
