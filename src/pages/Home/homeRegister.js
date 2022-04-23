@@ -232,12 +232,12 @@ function HomeRegister() {
                                         </div>
                                         <div className="col-sm-12">
                                             <div className="form-ctrl mb-0">
-                                                <input type="checkbox" required="" style={{height:'auto'}} /><span> I accept your <a target="_blank" >Terms and Conditions</a></span><br /><br />
+                                                <input type="checkbox" required="" style={{height:'auto'}} /><span> I accept your <a href='#' target="_blank" >Terms and Conditions</a></span><br /><br />
                                                 </div>
                                                 </div>
                                                     <div className="submit-btn col-sm-12">
                                                         <button type="submit" className="btn-padding-top" onclick="ValidateForm(this.form)">SUBMIT</button>
-                                                        <p><span><a  className="forgot-password">Forgot your password?</a></span> </p>
+                                                        <p><span><a   href='#' className="forgot-password">Forgot your password?</a></span> </p>
                                                     </div>
 
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import img1 from '../../Assets/Images/1img.png'
-import img2 from '../../Assets/Images/2img.png'
 import abouts from '../../Assets/Images/about1.png'
 
 function About() {

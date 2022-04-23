@@ -5,8 +5,6 @@ import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import login from '../../Assets/Images/login-img.jpg'
 
 const style = {
@@ -38,8 +36,8 @@ function Header() {
                         <div className="row y-middle">
                             <div className="col-lg-3">
                                 <div className="logo-area">
-                                    <a className="dark" href=""><img src={imageDark} alt="logo" /></a>
-                                    <a className="light" href=""><img src={imageDark} alt="logo" /></a>
+                                    <a className="dark" href="#"><img src={imageDark} alt="logo" /></a>
+                                    <a className="light" href="#"><img src={imageDark} alt="logo" /></a>
                                 </div>
                             </div>
                             <div className="col-lg-9 text-right">
