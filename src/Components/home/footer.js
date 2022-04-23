@@ -11,7 +11,7 @@ function footer() {
             <div className="col-lg-5 col-md-12 col-sm-12 footer-widget md-mb-39">
               <div className="about-widget pr-15">
                 <div className="logo-part">
-                  <a><img src={imagewhite} alt="Footer Logo" /></a>
+                  <span><img src={imagewhite} alt="Footer Logo" /></span>
                 </div>
                 <p className="desc">Jodi Banao Matrimony strives to bring a paradigm shift in the Online Matrimonial Service. Lakhs of choices of profiles are sourced from across the globe. </p>
 
@@ -28,13 +28,13 @@ function footer() {
                 <li>
                   <i className="flaticon-call"></i>
                   <div className="desc">
-                    <a href="tel:+8801739753105">(+91)173-9753105</a>
+                    <span>(+91)173-9753105</span>
                   </div>
                 </li>
                 <li>
                   <i className="flaticon-email"></i>
                   <div className="desc">
-                    <a href="mailto:support@jodibanaomatrimony.net">support@jodibanaomatrimony.in</a>
+                    <span >support@jodibanaomatrimony.in</span>
                   </div>
                 </li>
               </ul>
@@ -43,16 +43,16 @@ function footer() {
               <h4 className="widget-title">Information</h4>
               <ul className="address-widget pr-40">
                 <li>
-                  <div className="desc"><a >About Us</a></div>
+                  <div className="desc"><span >About Us</span></div>
                 </li>
                 <li>
-                  <div className="desc"><a >Contact Us</a></div>
+                  <div className="desc"><span >Contact Us</span></div>
                 </li>
                 <li>
-                  <div className="desc"><a >Terms &amp; Conditions</a></div>
+                  <div className="desc"><span >Terms &amp; Conditions</span></div>
                 </li>
                 <li>
-                  <div className="desc"><a >Privacy Policy</a></div>
+                  <div className="desc"><span >Privacy Policy</span></div>
                 </li>
               </ul>
             </div>
@@ -67,10 +67,10 @@ function footer() {
             </div>
             <div className="col-lg-6 col-md-4 text-right sm-text-center">
               <ul className="footer-social">
-                <li><a><i className="fa fa-facebook"></i></a></li>
-                <li><a ><i className="fa fa-twitter"></i></a></li>
-                <li><a><i className="fa fa-pinterest-p"></i></a></li>
-                <li><a><i className="fa fa-linkedin"></i></a></li>
+                <li><span><i className="fa fa-facebook"></i></span></li>
+                <li><span><i className="fa fa-twitter"></i></span></li>
+                <li><span><i className="fa fa-pinterest-p"></i></span></li>
+                <li><span><i className="fa fa-linkedin"></i></span></li>
               </ul>
             </div>
           </div>

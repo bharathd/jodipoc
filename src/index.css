@@ -79330,4 +79330,11 @@ p.textdis {
   bottom: -99px;
     position: relative; 
 }
+.login-data{
+  background: #d6171c;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 100px;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */

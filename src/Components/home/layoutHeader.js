@@ -15,7 +15,7 @@ function LayoutHeader() {
                            <div className="col-lg-12 header-container">   
                                 <div className="col-lg-3">
                                     <div className="logo-area">
-                                        <a ><img src={imageDark} alt="logo" /></a>
+                                        <span><img src={imageDark} alt="logo" /></span>
                                     </div>
                                 </div>
                                 <div className="col-lg-9 text-right">
@@ -25,14 +25,14 @@ function LayoutHeader() {
                                             <input type="text" placeholder="   Enter Profile-Id / Email" className=" placeicon email-data" id="form_name" name="email"  required="" oninvalid="this.setCustomValidity(&#39;Please Enter Your Profile-Id / Valid Email ID&#39;)" oninput="setCustomValidity(&#39;&#39;)" /> 
                                             <input type="password" placeholder="   ●●●●●●●●" id="form_email" name="password" className=" placeicon" required="" oninvalid="this.setCustomValidity(&#39;Please Enter Your Password&#39;)" oninput="setCustomValidity(&#39;&#39;)" /> 
                                             <button className='login-page'>Login</button>
-                                        <a ><img src={android} style={{height: '36px', marginleft: '5px'}} /></a>
+                                        <span><img src={android} style={{height: '36px', marginleft: '5px'}} alt="" /></span>
                                     </div>
                                 </div>
                             </div>
                             </form>
                             
                         </div>
-                        <p className='text-right'><span><a href="" className="forgot-password">Forgot your password?</a></span> </p>
+                        <p className='text-right'><span><span className="forgot-password">Forgot your password?</span></span> </p>
                     </div>
                 </div>
            

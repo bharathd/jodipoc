@@ -192,11 +192,11 @@ function register() {
 											<input type="email" name="email" className="home-form" placeholder="Re-Enter Password" required="" />
 										</div>
 										<div className="col-sm-12">
-											<input type="checkbox" /> <a href="" style={{ fontweight: '500' }} className="label-checkbx-names">I accept your Terms and Conditions</a><br /><br />
+											<input type="checkbox" /> <span  style={{ fontweight: '500' }} className="label-checkbx-names">I accept your Terms and Conditions</span><br /><br />
 										</div>
 										<div className="clearfix"></div>
 										<div className="col-sm-12">
-											<button type="submit" className="form-btn btn-padding-top" onclick="window.location.href=&#39;reg1.html&#39;">Register</button>
+											<button type="submit" className="form-btn btn-padding-top" >Register</button>
 										</div>
 									</div>
 								</div>

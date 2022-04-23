@@ -18,7 +18,7 @@ function About() {
                 </div>
                 <div className="services-part mb-30">
                     <div className="services-icon">
-                        <img src={img1} alt="image" />
+                        <img src={img1} alt="" />
                     </div>
                     <div className="services-text">
                         <h4 className="title">Lakhs of Profiles</h4>
@@ -28,7 +28,7 @@ function About() {
                 </div>
                 <div className="services-part">
                     <div className="services-icon">
-                        <img src={img1} alt="image" />
+                        <img src={img1} alt="" />
                     </div>
                     <div className="services-text">
                         <h4 className="title">Go ahead !</h4>
