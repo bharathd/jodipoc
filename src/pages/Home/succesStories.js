@@ -5,7 +5,7 @@ import img5 from '../../Assets/Images/5.jpg'
 function SuccesStories() {
     return (
         <div className="rs-testimonial style1 pt-80 pb-0">
-            <div className="container">
+            <div>
                 <div className="sec-title text-center mb-54 md-mb-39">
                     <div className="sub-title primary">Testimonials</div>
                     <h2 className="title mb-0">Success Stories</h2>

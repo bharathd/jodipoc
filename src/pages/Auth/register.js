@@ -41,8 +41,8 @@ function register() {
 										</div>
 										<div className="col-sm-6 col-6">
 											<span className="gender-position" style={{ top: '-13px' }}>Gender</span>
-											<input type="radio" name="gender" /> <label className="label-checkbx-names">Male</label >
-											<input type="radio" name="gender" /> <label className="label-checkbx-names">Female</label>
+											<input type="radio" name="gender" className="radioDisplay" /> <label className="label-checkbx-names">Male</label >
+											<input type="radio" name="gender" className="radioDisplay" /> <label className="label-checkbx-names">Female</label>
 										</div>
 										<div className="col-sm-12">
 											<input type="email" name="email" className="home-form" placeholder="Full Name" id="type" required="" />

@@ -45,8 +45,8 @@ function HomeRegister() {
                                 </div>
                                 <div className="col-sm-12 col-12 mb-10">
                                     <span className="text-white gender-position" style={{ top: '-12px', marginRight: '10px' }}>Gender</span>
-                                    <input type="radio" name="gender" value="Male" required="" oninvalid="this.setCustomValidity('Please Choose Gender')" oninput="setCustomValidity('')" /> <label className="label-checkbx-names" style={{ top: '-12px' }}>Male</label> &emsp;
-                                    <input type="radio" name="gender" value="Female" required="" oninvalid="this.setCustomValidity('Please Choose Gender')" oninput="setCustomValidity('')" /> <label className="label-checkbx-names" style={{ top: '-12px' }}>Female</label> &emsp;
+                                    <input type="radio" name="gender" value="Male" required="" class="radioDisplay" oninvalid="this.setCustomValidity('Please Choose Gender')" oninput="setCustomValidity('')" /> <label className="label-checkbx-names" style={{ top: '-12px' }}>Male</label> &emsp;
+                                    <input type="radio" name="gender" value="Female" required="" class="radioDisplay" oninvalid="this.setCustomValidity('Please Choose Gender')" oninput="setCustomValidity('')" /> <label className="label-checkbx-names" style={{ top: '-12px' }}>Female</label> &emsp;
                                 </div>
                                 <div className="col-sm-12">
                                     <div className="form-ctrl mb-30">

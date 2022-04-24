@@ -4,7 +4,7 @@ function Skillbar() {
     
   return (
     <div className="rs-skillbar style1 pt-62 pb-0 md-pt-52 md-pb-50 sm-pt-50">
-    <div className="container">
+    <div>
         <div className="gray-bg">
             <div className="row">
                 <div className="col-lg-6 content-part">

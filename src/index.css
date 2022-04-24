@@ -17616,6 +17616,7 @@ a.text-dark:hover {
      position: relative;
      top:-12px;
  }
+ .radioDisplay{margin-left: 7px }
  .placeicon {
     font-family: fontawesome
 }
@@ -79157,6 +79158,7 @@ input[type=checkbox], input[type=radio] {
     left: 0;
     top: 40px;
     text-align: left;
+    display: none;
   }
   .header-form input {
     border: 0;
